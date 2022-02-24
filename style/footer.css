@@ -14,19 +14,22 @@
     padding-top: 8px;
     padding-right: 50px;
     font-size:20px;
-    margin-bottom: 20px;
+    height: 56px;
 }
 #sub{
     margin-top: 20px;
+    display: flex;
 }
 #input123{
-    padding-top:16px;
-    padding-bottom:16px;
-    padding-right:80px;
+    /* padding-top:5px;
+    padding-bottom:5px; */
+    padding-right:20px;
     background-color: #f7f8f7;
     border: transparent;
-    width:250px;
-    margin-left:80px;
+    width:320px;
+    height: 56px;
+    margin-left: 50px;
+    /* margin-left:50px; */
 }
 #h102{
     margin-left:300px;
