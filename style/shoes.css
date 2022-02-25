@@ -1,0 +1,164 @@
+#thirddiv{
+    text-align: center;
+    padding-top:50px;
+    height:500px;
+}
+
+    #same{
+        height:500px;
+        width:100%;
+    }
+    #first_row{
+        height:50px;
+        width:100%;
+        color: white;
+        background-color: orange;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    #main{
+        width: 100%;
+        margin: auto;
+    }
+    #img90{
+        width: 80%;
+        height:500px;
+    }
+    #p1{
+        padding-top:14px;
+    }
+    #imagec{
+        display:grid;
+        grid-template-columns: repeat(6,1fr);
+        width: 100%;
+        gap:5px;
+    }
+    #img2{
+        width:200px;
+        height:200px;
+    }
+    #imagesection{
+        display:grid;
+        grid-template-columns: repeat(6,1fr);
+        width:80%;
+        gap:15px;
+    }
+    #img21{
+        width:200px;
+        height:200px;
+
+    }
+    #thirddiv1{
+    text-align: center;
+    padding-top:50px;
+    width:90%;
+    margin: auto;
+}
+#fourdiv{
+    text-align: center;
+    padding-top:50px;
+    height:650px;
+    width:90%;
+    margin: auto;
+
+}
+#h22{
+    margin-right:80%;
+}
+#h21{
+    margin-right:87%;
+}
+#sixthdiv{
+    margin-left:120px;
+    width:90%;
+}
+#h23{
+    margin-right:77%;
+}
+#thirddiv12{
+    text-align: center;
+    padding-top:50px;
+    width:90%;
+    margin: auto;
+    height:350px;
+}
+#seventhdiv{
+    width:100%;
+    height:120px;
+  margin-left: 120px;
+  margin-top: 100px;
+
+}
+#img4{
+    height:70px;
+    width:82%;
+ 
+}
+#arr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+#ninediv{
+  width:85%;
+  margin: auto;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+#img5{
+  height:395px;
+  width:395px;
+ 
+
+}
+#h24{
+  margin-bottom:60px;
+}
+#h26{
+margin-right:84%;
+}
+#slider{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:10px;
+
+}
+#img9{
+ width:300px;
+}
+#sliderbox{
+ width: 80%;
+ margin: auto;
+}
+#h28{
+ margin-left:145px;
+}
+#btn1{
+margin-left:480px ;
+ text-align: center;
+ padding-left:100px;
+ padding-right:100px;
+ padding-top:10px;
+ padding-bottom:10px;
+ color: orangered;
+}
+#elventh{
+ display: flex;
+margin-top:20px;
+ gap: 20px;
+}
+#p24{
+ font-size:35px;
+ margin-top:70px;
+ font-weight:10px;
+
+}
+#fif1{
+ display: flex;
+ width: 80%;
+ gap:10px;
+}
+#last{
+ width:410px;
+}
