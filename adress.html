@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .width1200{
+            width: 1200px;
+        }
+        .flex{
+            display: flex;
+        }
+        .marginauto{
+            margin: auto;
+        }
+        #img1{
+            height: 42px;
+            width: 90px;
+            padding: 20px;
+            margin-right: 120px;
+        }
+        #sph1{
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            background-color: gray;
+            margin: 50px 10px;
+        }
+        #sph1>div{
+            padding: 2px 6px;
+            color: white;
+        }
+        #sph2{
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            background-color: black;
+            margin: 50px 10px;
+        }
+        #sph2>div{
+            padding: 2px 6px;
+            color: white;
+        }
+        #add{
+            color: black;
+            margin: 50px 10px;
+
+        }
+        #line{
+            width: 150px;
+            border-top: 1px dashed gray;
+            margin-top: 60px;
+        }
+        #line2{
+            width: 100%;
+            height: 1px;
+            background-color: gray;
+        }
+        #liner55{
+          border: 1px solid rgba(128, 128, 128, 0.212) ;
+             height: 700px;
+             width: 45%;
+             margin: auto;
+        
+           
+        }
+        #optional{
+            width: 80%;
+            height: 7%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: rgba(128, 128, 128, 0.432);
+            font-size: medium;
+            padding-left: 10px;
+            margin-left:5%;
+            border: transparent;
+          
+        }
+        #optinal2{
+            width: 77%;
+            height: 7%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: rgba(128, 128, 128, 0.432);
+            font-size: medium;
+            padding-left: 10px;
+            margin-left:5%;
+            margin-top: 20PX;
+            border: transparent;
+           
+        }
+        #h2line{
+            padding-left: 20px;
+        }
+        #optinal3{
+            width: 77%;
+            height: 7%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: rgba(128, 128, 128, 0.432);
+            font-size: medium;
+            padding-left: 10px;
+            margin-left:5%;
+            border: transparent;
+        }
+        #button55{
+          margin-top: 15px;
+           height: 30px;
+           width: 30px;
+        }
+        #laster{
+            display: flex;
+            margin-left: 15px;
+        }
+        #laster1{
+            display: flex;
+            height: 100px;
+            width: 80%;
+            margin-left: 30px;
+        }
+        #cancel{
+        
+            width: 50%;
+            height: 50%;
+           cursor: pointer;
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.158);
+            padding-bottom: 5px;
+            
+           
+        }
+        #save{
+          
+            width: 50%;
+            height: 50%;
+           cursor: pointer;
+            text-align: center;
+            color:white ;
+            background-color: rgba(0, 0, 0, 0.829);
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="width1200 marginauto flex">
+        <div><img id="img1" src="https://quantean.com/wp-content/uploads/2021/08/Life-style.png" alt=""></div>
+        <div class="flex">
+            <div id="sph1"><div>1</div></div>
+            <div id="add">Bag</div>
+            <div id="line"></div>
+            <div id="sph2"><div>2</div></div>
+            <div id="add">Address</div>
+            <div id="line"></div>
+            <div id="sph1"><div>3</div></div>
+            <div id="add">Payment</div>
+        </div>
+    </div>
+    <div id="line2"></div>
+ </div>   
+ <div id="liner55">
+     <h1 id="h2line">Add new address</h1>
+     
+         <select id="optional" aria-placeholder="country" >
+             <option value="contry">country*</option>
+             <option value="contry">India</option>
+             <option value="contry">America</option>
+             <option value="country">England</option>
+             <option value="country">westindies</option>
+             <option value="country">japan</option>
+         </select>
+         <input id="optinal2" type="number" placeholder="PinCode*">
+         <input id="optinal2" type="text" placeholder="Address Line1*">
+         <input id="optinal2" type="text" placeholder="Address Line2*">
+         <h2 id="h2line">Shipping details will be sent to:</h2>
+         <input id="optinal3" type="text" placeholder="Full Name*">
+         <input id="optinal2" type="number" placeholder="Phone no"><br><br>
+         <div id="laster">
+         <input id="button55" type="checkbox"></input>
+              <h3>Use this as your Default Address</h3>
+         </div>
+         <div id="laster1">
+                  <div id="cancel">
+                      <h2>cancel</h1>
+                  </div>
+                  <div id="save" class="areyaar">
+                      <h2>Save</h1>
+                  </div>
+            </div>
+ </div>
+     
+</body>
+</html>
+<script>
+       document.querySelector(".areyaar").addEventListener("click",function(){
+        window.location.href= "pyment.html"
+  })
+</script>

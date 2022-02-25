@@ -21,8 +21,8 @@
     border: transparent;
     padding-top:7px;
     padding-bottom:5px;
-    padding-left:97px;
-    padding-right:97px;
+    padding-left:17px;
+    padding-right:17px;
 
 }
 #dressn{
@@ -30,4 +30,16 @@
 }
 #price{
     margin-left: 10px;
+}
+#flexbtn{
+    display: flex;
+}
+#buy{
+    background-color:black;
+    padding-top:7px;
+    padding-bottom:5px;
+    padding-left:47px;
+    padding-right:47px;
+    color: white;
+    border: transparent;
 }
