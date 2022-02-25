@@ -1,4 +1,4 @@
 # lifestyle
 
 
-https://condescending-brattain-5bc827.netlify.app
+https://elated-wozniak-5276d7.netlify.app
