@@ -147,18 +147,28 @@ margin-left:480px ;
  display: flex;
 margin-top:20px;
  gap: 20px;
+ margin: auto;
+ width: 80%;
 }
 #p24{
  font-size:35px;
  margin-top:70px;
  font-weight:10px;
+ margin-left:150px;
 
 }
 #fif1{
  display: flex;
- width: 80%;
+ width:80%;
  gap:10px;
+ margin: auto;
 }
 #last{
  width:410px;
+}
+#sixthdiv1{
+    /* margin-left:120px; */
+    width:80%;
+    margin: auto;
+    margin-top:30px;
 }
