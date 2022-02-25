@@ -19,8 +19,8 @@ function navbar(){
     <div id="lifestyle1">
         <div id="parts1" onmouseover="navbar1()"> <a id="av" href="woman.html">Woman</a> </div>
         <div id="parts2" onmouseover="navbar2()"><a id="av" href="man.html">Men</a></div>
-        <div id="parts3" onmouseover="navbar3()">Kids</div>
-        <div id="parts4" onmouseover="navbar4()">Shoes&Bags</div>
+        <div id="parts3" onmouseover="navbar3()"><a id="av" href="kids.html">Kids</a></div>
+        <div id="parts4" onmouseover="navbar4()"><a id="av" href="shoes.html">Shoes&Bags</a></div>
         <div id="parts5" onmouseover="navbar5()">More</div>
         
     </div>
