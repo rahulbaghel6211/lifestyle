@@ -1,4 +1,4 @@
-This project is built for only educational purpose. Lifestyle is an amazing e-commerce web application of fashion wear.
+ Lifestyle is an amazing e-commerce web application of fashion wear. Love to learn new things we can created lifestyle website in just 5 days this is my construct week project
 
 You can visit  site of Lifestyle that provides amazing product.
 live here  --> https://elated-wozniak-5276d7.netlify.app
